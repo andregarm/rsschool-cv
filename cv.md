@@ -57,7 +57,7 @@ So you can contact me to discuss any of your projects, regardless of the amount 
 
 ### Code example:
 
-``` 
+```
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
