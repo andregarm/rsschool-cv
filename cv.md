@@ -57,8 +57,6 @@ So you can contact me to discuss any of your projects, regardless of the amount 
 
 ### Code example:
 
-**Peak array index KATA from CODEWARS:** _Given an array of ints, return the index such that the sum of the elements to the right of that index equals the sum of the elements to the left of that index. If there is no such index, return -1. If there is more than one such index, return the left-most index._
-
 ``` /** @type {import('tailwindcss').Config} */
 module.exports = {
 
