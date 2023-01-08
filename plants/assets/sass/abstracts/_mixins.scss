@@ -1,0 +1,60 @@
+/*  @mixin media-dekstop - @include media-dekstop */
+
+
+@mixin font ($size, $height: $size, $weight: normal, $style: normal) {
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+    font-style: $style;
+}
+
+
+@mixin media-dekstop {
+    @media (max-width: 1350px) { @content;}
+}
+
+@mixin media-laptop-and-tablet {
+    @media (max-width: 1300px) { @content;}
+}
+
+@mixin media-tablet {
+    @media (max-width: 1150px) { @content;}
+}
+
+@mixin media-tablet-and-mobile {
+    @media (max-width: 1150px) { @content;}
+}
+
+@mixin media-mobile {
+    @media (max-width: 767px) { @content;}
+}
+
+@mixin media-mobile-mini {
+    @media (max-width: 379px) { @content;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

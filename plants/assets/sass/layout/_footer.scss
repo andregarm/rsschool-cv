@@ -1,0 +1,137 @@
+.footer {
+    padding: 41px 0 41px;
+
+    @include media-tablet {
+        padding: 20px 0 29px;
+    }
+
+    @include media-mobile {
+        padding: 7px 0 29px;
+    }
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    @include font($size: 2.0rem, $height: 5.0rem, $weight:400);
+    color: $color-black;
+
+    @include media-tablet {
+        flex-direction: column;
+    }
+
+}
+
+.footer-info {
+    display: flex;
+    gap: 20px;
+
+    @include media-tablet {
+        margin: 0 auto;
+
+    }
+}
+
+.footer-github {
+    color: $color-black;
+
+    &:hover {
+        color: $color-green;
+    }
+}
+
+.rs-text {
+    padding-left: 30px;
+
+    @include media-tablet {
+        text-align: center;
+        padding: 0 0 0 0;
+        margin-top: -11px;
+    }
+}
+
+.footer-socials {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    @include media-tablet {
+        margin: 13.5px 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    @include media-mobile {
+        margin: 3.5px 0 0 0;
+        padding: 0 0 0 0;
+    }
+}
+
+.footer-socials-item {
+    @extend %transition;
+}
+
+.instagram-link, .fb-link, .twitter-link, .pinterest-link {
+    @extend %transition;
+}
+
+
+
+.instagram-icon {
+    display: block;
+    background: url(../../assets/icons/instagram.svg);
+    width: 28px;
+    height: 28px;
+}
+
+.instagram-link:hover .instagram-icon {
+    background: url(../../assets/icons/instagram-hover.svg);
+}
+
+.fb-icon {
+    display: block;
+    background: url(../../assets/icons/fb.svg);
+    width: 17px;
+    height: 28px;
+}
+
+.fb-link:hover .fb-icon {
+    background: url(../../assets/icons/fb-hover.svg);
+}
+
+.twitter-icon{
+    display: block;
+    background: url(../../assets/icons/twitter.svg);
+    width: 28px;
+    height: 22px;
+}
+
+.twitter-link:hover .twitter-icon {
+    background: url(../../assets/icons/twitter-hover.svg);
+}
+
+.pinterest-icon{
+    display: block;
+    background: url(../../assets/icons/pinterest.svg);
+    width: 28px;
+    height: 28px;
+}
+
+.pinterest-link:hover .pinterest-icon {
+    background: url(../../assets/icons/pinterest-hover.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

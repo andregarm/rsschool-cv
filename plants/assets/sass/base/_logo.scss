@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    @include media-tablet {
+        margin-top: 10px;
+    }
+
+}
+
+.logo-icon {
+    display: block;
+    background: url(../../assets/icons/logo-text.svg);
+    width: 81px;
+    height: 22px;
+}
+

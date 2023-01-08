@@ -1,0 +1,42 @@
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 109px;
+
+    // @include media-dekstop {
+    //     padding: 0 90px;
+    // }
+
+    // @include media-laptop {
+    //     padding: 0 60px;
+    // }
+
+    @include media-tablet {
+        max-width: 768px;
+        padding: 0 50px;
+    }
+
+    @include media-mobile {
+        max-width: 380px;
+        padding: 0 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
