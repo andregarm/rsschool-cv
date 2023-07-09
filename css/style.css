@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .nav-icon svg{
+    transition: transform 0.3s ease;
+    color: #203444;
+  }
+
+  .nav-icon svg :hover{
+  transform-origin: center;
+  transform: scale(1.2);
+  border-radius: 100%;
+ fill: #008EFF;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding-left: 24px;
+  }
+  
+  img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .imageblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .courses {
+    height: 72px;
+    width: 72px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer svg{
+    width: 50%;
+  }
+
+ 
